@@ -1,0 +1,44 @@
+{
+  "name": "@zelgadis87/file-finder",
+  "description": "Find files with a certain name within a given folder tree",
+  "version": "0.0.0",
+  "author": "Gabriele Tomberli @Zelgadis87",
+  "bin": {
+    "file-finder": "bin/run"
+  },
+  "bugs": {
+    "url": "https://github.com/Zelgadis87/file-finder/issues"
+  },
+  "dependencies": {
+    "@oclif/command": "1.5.19",
+    "@oclif/config": "1.14.0",
+    "@oclif/plugin-help": "2.2.3",
+    "fs-extra": "8.1.0"
+  },
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "eslint-plugin-unicorn": "16.1.1"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/src"
+  ],
+  "homepage": "https://github.com/Zelgadis87/file-finder",
+  "keywords": [
+    "oclif",
+    "file-finder",
+    "zelgadis87"
+  ],
+  "license": "ISC",
+  "main": "src/fileFinder.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zelgadis87/file-finder.git"
+  },
+  "scripts": {
+    "test": "npx eslint -c .eslintrc ./src/**/*.js"
+  }
+}

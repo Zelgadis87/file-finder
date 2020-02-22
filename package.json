@@ -1,7 +1,7 @@
 {
   "name": "@zelgadis87/file-finder",
   "description": "Find files with a certain name within a given folder tree",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Gabriele Tomberli @Zelgadis87",
   "bin": {
     "file-finder": "bin/run"

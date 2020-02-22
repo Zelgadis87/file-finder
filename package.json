@@ -33,7 +33,7 @@
     "zelgadis87"
   ],
   "license": "ISC",
-  "main": "src/fileFinder.js",
+  "main": "src/file-finder.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Zelgadis87/file-finder.git"

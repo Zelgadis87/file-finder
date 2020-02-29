@@ -28,7 +28,7 @@ class Zelgadis87FileFinderCommand extends Command {
 
 }
 
-Zelgadis87FileFinderCommand.description = `abcdef`
+Zelgadis87FileFinderCommand.description = `Find files with a certain name, within a given folder tree.`
 
 Zelgadis87FileFinderCommand.args = [
 	{
@@ -53,9 +53,5 @@ Zelgadis87FileFinderCommand.flags = {
 	// add --help flag to show CLI version
 	help: flags.help( { char: 'h', description: 'Prints help instructions' } )
 }
-
-Zelgadis87FileFinderCommand.usage = `
- xxxx
-`
 
 module.exports = Zelgadis87FileFinderCommand

@@ -68,6 +68,7 @@ rules:
     unicorn/filename-case:
         - error
         - { case: kebabCase }
+    unicorn/no-fn-reference-in-iterator: off
 
 env:
     node: true
